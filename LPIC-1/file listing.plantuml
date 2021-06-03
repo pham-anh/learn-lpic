@@ -1,0 +1,13 @@
+@startmindmap
+
+* ls
+**_ -t \t <&clock> accendingly by time
+**_ -l \t <&list-rich> long listing, can see metadata
+**_ -a \t <&list> list all including hidden files (files beginning with a .)
+**_ -F \t show file type
+***_ <&folder> folder: with a trailing /
+***_ <&link-intact> symbolic link: with a trailing @
+***_ <&file> file: no trailing character
+
+@endmindmap
+
