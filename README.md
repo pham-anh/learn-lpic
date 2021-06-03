@@ -1,2 +1,2 @@
-# learn-lpic
+# LPIC Learning
 Memorize LPIC learning
