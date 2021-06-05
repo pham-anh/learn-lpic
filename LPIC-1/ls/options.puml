@@ -1,13 +1,16 @@
 @startmindmap
-
+title ls and its commonly used options
 * ls
 **_ -t \t <&clock> accendingly by time
 **_ -l \t <&list-rich> long listing, can see metadata
 **_ -a \t <&list> list all including hidden files (files beginning with a .)
+
 **_ -F \t show file type
 ***_ <&folder> folder: with a trailing /
 ***_ <&link-intact> symbolic link: with a trailing @
 ***_ <&file> file: no trailing character
 
+**_ -r \t list in reverse order
+**_ -h \t show file size in human readable form (K, G...)
+**_ -d \t list only the directory/ file itself
 @endmindmap
-

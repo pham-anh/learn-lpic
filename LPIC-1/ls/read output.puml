@@ -1,0 +1,22 @@
+@startmindmap
+title Understand the output of ls
+*: $ ls -ld .
+drwxr-xr-x  7 root  root  224 Jun  4 06:24 .;
+**_ d \t\t\t file type
+***_ - \t regular file
+***_ d \t directory, here it is a directory
+***_ c \t character device, accept character input and display characters (e.g. terminal)
+***_ b \t block device, disk and partition files
+***_ l \t symbolic link, the file is like a shortcut to another file
+
+**_ rwxr-xr-x \t file permission
+**_ 7 \t\t\t number of hard link
+
+**_ root root \t ownership
+***_ owner \t\t\t root
+***_ group of owner \t root
+
+**_ 244 \t\t\t file size
+**_ Jun  4 06:24 \t last modified time
+**_ . \t\t\t file name, here it is the current directory
+@endmindmap
