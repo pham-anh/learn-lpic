@@ -1,6 +1,6 @@
 ---
 title: Linux file types
-date: 2021-06-09 05:00:00
+date: 2021-06-09T13:46:29+09:00
 category: lpic
 tags : [centos, command]
 draft: false
