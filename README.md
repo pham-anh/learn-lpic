@@ -1,6 +1,8 @@
 # LPIC Learning
 Memorize LPIC learning
 
+This is a hugo module.
+
 
 ## Generate PlantUML
 

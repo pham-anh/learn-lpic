@@ -5,9 +5,9 @@ drwxr-xr-x  7 root  root  224 Jun  4 06:24 .;
 **_ d \t\t\t file type
 ***_ - \t regular file
 ***_ d \t directory, here it is a directory
-***_ c \t character device, accept character input and display characters (e.g. terminal)
-***_ b \t block device, disk and partition files
-***_ l \t symbolic link, the file is like a shortcut to another file
+***_ c \t character device: accept character \n\t input and display characters \n\t (e.g. terminal)
+***_ b \t block device: disk and  \n\tpartition files
+***_ l \t symbolic link: the file is like a \n\t shortcut to another file
 
 **_ rwxr-xr-x \t file permission
 **_ 7 \t\t\t number of hard link
