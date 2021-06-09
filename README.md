@@ -18,7 +18,7 @@ All can be found here: https://plantuml.com/starting
 Run this command to generate images from PlantUML files
 
 ```
-java -jar ~/plantuml.jar LPIC-1/*
+java -jar ~/plantuml.jar LPIC-1/* -tsvg
 ```
 
 - Refs: https://plantuml.com/command-line
