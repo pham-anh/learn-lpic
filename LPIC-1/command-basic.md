@@ -1,12 +1,12 @@
 ---
 title: Some basic commands
-date: 2021-06-08T13:46:29+09:00
-category: "lpic"
-tags : [centos, command]
-draft: false
+date: 2021-06-08
+tags:
+- centos
+- command
+categories:
+- lpic
 ---
-
-# Some basic commands
 
 ## `tty`
 

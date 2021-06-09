@@ -1,12 +1,11 @@
 ---
 title: Linux file types
-date: 2021-06-09T13:46:29+09:00
-category: lpic
-tags : [centos, command]
-draft: false
+tags:
+- centos
+- command
+categories:
+- lpic
 ---
-
-# Linux file types
 
 ## `-` regular file
 

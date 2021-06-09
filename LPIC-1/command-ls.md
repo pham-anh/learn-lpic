@@ -1,18 +1,18 @@
 ---
 title: ls - list directory contents
-date: 2021-06-09T13:46:29+09:00
-category: "lpic"
-tags : [centos, command]
-draft: false
+date: 2021-06-08
+tags:
+- centos
+- command
+categories:
+- lpic
 ---
-
-# `ls` list directory contents
 
 ## Commonly used options
 
-![ls options](ls/options.png)
+![ls options](../img-lpic/command-ls-options.svg)
 
 ## Read output
 
-![ls output](ls/readOutput.png)
+![ls output](../img-lpic/command-ls-read-output.svg)
 
