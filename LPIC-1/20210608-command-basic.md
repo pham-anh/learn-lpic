@@ -5,7 +5,7 @@ tags:
 - centos
 - command
 categories:
-- lpic
+- lpic1
 ---
 
 ## `tty`

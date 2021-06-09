@@ -1,10 +1,11 @@
 ---
 title: Linux file types
+date: 2021-06-10
 tags:
 - centos
 - command
 categories:
-- lpic
+- lpic1
 ---
 
 ## `-` regular file
