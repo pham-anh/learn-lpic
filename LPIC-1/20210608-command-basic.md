@@ -34,11 +34,7 @@ $ ls -l /dev/ttys002
 crw--w----  1 quynhanhpham  tty   16,   2 Jun  5 05:44 /dev/ttys002
 ```
 
-# Ctrl + L
-
-Clear the screen. Same as `clear` but more convenient.
-
-# `yum whatprovides <command name>`
+## `yum whatprovides <command name>`
 
 Check which package provide a command
 
@@ -64,7 +60,7 @@ Provides    : lsb = 4.1-27.el7.centos.1
 
 So we can see that the package `redhat-lsb` provides `lsb` command. If we want to use that command, go ahead and install the package
 
-# `yum install <package name>`
+## `yum install <package name>`
 
 Install a package.
 Here `sudo` is needed because the current user don't have enough permission for package installation.
@@ -80,7 +76,7 @@ Is this ok [y/d/N]: y      # ↩︎ input an "y" here
 Complete!
 ```
 
-# `lsblk`
+## `lsblk`
 
 List block devices of the system.
 
