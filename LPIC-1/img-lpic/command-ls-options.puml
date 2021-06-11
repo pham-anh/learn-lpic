@@ -13,4 +13,5 @@ title ls and its commonly used options
 **_ -r \t list in reverse order
 **_ -h \t show file size in human readable form (K, G...)
 **_ -d \t list only the directory/ file itself
+**_ -R \t list all nested directory
 @endmindmap

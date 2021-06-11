@@ -95,50 +95,100 @@ Here we have:
 - `sda`: disk
 - `sda1`, `sda2`: partitions
 
-## Wildcard and Regular expression
+## `pwd` print working directory
 
-### *
+## `which`
 
-`*` means matching 0 or any character. So in the following command line, we can list and file name beginning with `/dev/sda`.
-
-```
-$ ls -la /dev/sda*
-brw-rw----. 1 root disk 8, 0 Jun  4 21:01 /dev/sda
-brw-rw----. 1 root disk 8, 1 Jun  4 21:01 /dev/sda1
-brw-rw----. 1 root disk 8, 2 Jun  4 21:01 /dev/sda2
-```
-
-### ?
-
-`?` means matching any single character. So in the following command, we can list any file name that have at least 1 character following `/dev/sda`.
+Show full path to a command
 
 ```
-$ ls -la /dev/sda?
-brw-rw----. 1 root disk 8, 1 Jun  4 21:01 /dev/sda1
-brw-rw----. 1 root disk 8, 2 Jun  4 21:01 /dev/sda2
-```
-
-We no longer see `/dev/dsa` in the list because it has no character following `/dev/sda`.
-
-### [12]
-
-`[<a group of characters>]` means matching any character in the group. So in the following command, we can list any file name that have `1` or `2` following `/dev/sda`.
-
-```
-$ ls -la /dev/sda[12]
-brw-rw----. 1 root disk 8, 1 Jun  4 21:01 /dev/sda1
-brw-rw----. 1 root disk 8, 2 Jun  4 21:01 /dev/sda2
+$ which git
+/usr/bin/git
 ```
 
 
+## `cp` copy
 
+Copy a file. Need `read` permission on the copied file and `write` permission on the destination directory.
 
+Use `cp -i` (-i as `interaction`) for asking before overwriting when the copied file already exists in the destination.
 
+```
+$ cp -i /etc/hosts .
+cp: overwrite ‘./hosts’?
+```
 
+## `cat`
 
+Read a file
 
+```
+$ cat /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+``` 
 
+## `mv` move
 
+- Move a file to another directory
+- Rename a file by moving it to the same directory with a new name
+
+Example: rename `lipc.md` to `lpic2.md`
+
+```
+$ ls
+lpic1.md
+$ mv lpic1.md lpic2.md
+$ ls
+lpic2.md
+```
+
+### `rm` remove
+
+Remove files
+
+### `mkdir` make directory
+
+Create a directory named `test`
+
+```
+$ mkdir test
+$ ls -F
+lpic2.md  test/
+```
+
+Create nested directory (parent and child directories)
+
+```
+$ mkdir -p test001/test002/test003
+$ ls -R .
+.:
+test001
+
+./test001:
+test002
+
+./test001/test002:
+test003
+
+./test001/test002/test003:
+```
+
+## `rmdir` remove directory
+
+Example: remove directory `test003` inside `test001/test002/`
+
+```
+$ rmdir test001/test002/test003/
+$ ls -R
+.:
+test001
+
+./test001:
+test002
+
+./test001/test002:
+```
 
 
 

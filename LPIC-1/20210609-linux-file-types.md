@@ -3,7 +3,7 @@ title: Linux file types
 date: 2021-06-09
 tags:
 - centos
-- command
+- ls
 categories:
 - lpic1
 ---
