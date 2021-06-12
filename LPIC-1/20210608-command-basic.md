@@ -106,7 +106,6 @@ $ which git
 /usr/bin/git
 ```
 
-
 ## `cp` copy
 
 Copy a file. Need `read` permission on the copied file and `write` permission on the destination directory.
@@ -116,6 +115,33 @@ Use `cp -i` (-i as `interaction`) for asking before overwriting when the copied 
 ```
 $ cp -i /etc/hosts .
 cp: overwrite ‘./hosts’?
+```
+
+Copy a whole directory: `cp -R`
+
+```
+$ mkdir file001
+$ touch file001/content00{1..5}
+$ ls file001/ -F
+content001  content002  content003  content004  content005
+$ cp -R file001/ file002
+$ ls file002/
+content001  content002  content003  content004  content005
+# check the 2 directory using `tree` command
+$ tree
+.
+├── file001
+│   ├── content001
+│   ├── content002
+│   ├── content003
+│   ├── content004
+│   └── content005
+└── file002
+    ├── content001
+    ├── content002
+    ├── content003
+    ├── content004
+    └── content005
 ```
 
 ## `cat`
@@ -145,7 +171,28 @@ lpic2.md
 
 ### `rm` remove
 
-Remove files
+Remove a file
+
+```
+$ touch hello.txt
+$ ls hello.txt 
+hello.txt
+$ rm hello.txt 
+$ !ls # run last command that begins with `ls`
+ls hello.txt 
+ls: cannot access hello.txt: No such file or directory
+```
+
+Force delete (`-f`) a directory and its content (`-r`). Note: need to **double careful** if running as root be cause it will delete everything.
+
+```
+# create some nested directories
+$ mkdir -p do/did/done
+# create a file inside it
+$ touch do/did/done/well.txt
+# delete whole directory and its content
+$ rm -rf do/
+```
 
 ### `mkdir` make directory
 
@@ -155,6 +202,16 @@ Create a directory named `test`
 $ mkdir test
 $ ls -F
 lpic2.md  test/
+```
+
+Create 2 directories at the same level
+
+```
+$ mkdir hello world
+$ ls
+hello  world
+$ ls -F
+hello/  world/
 ```
 
 Create nested directory (parent and child directories)
@@ -174,7 +231,26 @@ test003
 ./test001/test002/test003:
 ```
 
-## `rmdir` remove directory
+Create `dir1`, `dir2`, `dir3`, `dirn`: `mkdir dir{1..3}`
+
+```
+$ mkdir dir{1..3}
+$ ls -F
+dir1/  dir2/  dir3/
+```
+
+Specify permission when creating a directory: `mkdir -m`
+
+``` 
+$ mkdir -m 777 d1
+$ ls -l
+total 0
+drwxrwxrwx. 2 pqa pqa 6 Jun 12 03:04 d1
+```
+
+### `rmdir` remove empty directory
+
+This command only removes directories that have nothing inside.
 
 Example: remove directory `test003` inside `test001/test002/`
 
@@ -190,6 +266,42 @@ test002
 ./test001/test002:
 ```
 
+Cannot use this command to remove `test001` because it contains `test002` inside
 
+```
+$ rmdir test001/
+rmdir: failed to remove ‘test001/’: Directory not empty
+```
+
+Alternatively, we can remove both `test0002`, then `test001`
+```
+$ rmdir test001/test002 test001
+```
+
+## `!`
+
+Run last command that was run.
+
+Example: run last command that begin with `r`
+
+```
+$ mkdir -p do/did/done
+$ ls -R .
+.:
+do
+
+./do:
+did
+
+./do/did:
+done
+
+./do/did/done:
+$ rmdir do/did/
+rmdir: failed to remove ‘do/did/’: Directory not empty
+$ !r
+rmdir do/did/
+rmdir: failed to remove ‘do/did/’: Directory not empty
+```
 
 
