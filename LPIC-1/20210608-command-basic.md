@@ -95,7 +95,15 @@ Here we have:
 - `sda`: disk
 - `sda1`, `sda2`: partitions
 
-## `pwd` print working directory
+## `pwd`
+
+Print working directory
+
+```
+$ cd /usr/bin/
+$ pwd
+/usr/bin
+```
 
 ## `which`
 
@@ -159,7 +167,7 @@ $ cat /etc/hosts
 - Move a file to another directory
 - Rename a file by moving it to the same directory with a new name
 
-Example: rename `lipc.md` to `lpic2.md`
+Example: rename `lpic1.md` to `lpic2.md`
 
 ```
 $ ls
@@ -169,7 +177,7 @@ $ ls
 lpic2.md
 ```
 
-### `rm` remove
+## `rm` remove
 
 Remove a file
 
@@ -183,7 +191,9 @@ ls hello.txt
 ls: cannot access hello.txt: No such file or directory
 ```
 
-Force delete (`-f`) a directory and its content (`-r`). Note: need to **double careful** if running as root be cause it will delete everything.
+Force delete (`-f`) a directory and its content (`-r`). 
+
+- Note: need to **double careful** if running as root be cause it will delete everything.
 
 ```
 # create some nested directories
@@ -194,7 +204,7 @@ $ touch do/did/done/well.txt
 $ rm -rf do/
 ```
 
-### `mkdir` make directory
+## `mkdir` make directory
 
 Create a directory named `test`
 
@@ -214,7 +224,7 @@ $ ls -F
 hello/  world/
 ```
 
-Create nested directory (parent and child directories)
+`-p`: Create nested directory (parent and child directories)
 
 ```
 $ mkdir -p test001/test002/test003
@@ -239,7 +249,7 @@ $ ls -F
 dir1/  dir2/  dir3/
 ```
 
-Specify permission when creating a directory: `mkdir -m`
+`-m`: Specify permission when creating a directory
 
 ``` 
 $ mkdir -m 777 d1
@@ -248,7 +258,7 @@ total 0
 drwxrwxrwx. 2 pqa pqa 6 Jun 12 03:04 d1
 ```
 
-### `rmdir` remove empty directory
+## `rmdir` remove empty directory
 
 This command only removes directories that have nothing inside.
 
@@ -278,9 +288,7 @@ Alternatively, we can remove both `test0002`, then `test001`
 $ rmdir test001/test002 test001
 ```
 
-## `!`
-
-Run last command that was run.
+## `!` run last command
 
 Example: run last command that begin with `r`
 
@@ -304,4 +312,12 @@ rmdir do/did/
 rmdir: failed to remove ‘do/did/’: Directory not empty
 ```
 
+## Make file with some content
 
+Example, create `hw.txt` with the content `hello world`
+
+```
+$ echo hello world > hw.txt
+$ cat hw.txt 
+hello world
+```

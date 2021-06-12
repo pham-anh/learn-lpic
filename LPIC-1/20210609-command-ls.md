@@ -4,6 +4,7 @@ date: 2021-06-09
 tags:
 - centos
 - ls
+- hardLink
 categories:
 - lpic1
 ---
@@ -16,7 +17,7 @@ categories:
 
 ![ls output](../img-lpic/command-ls-read-output.svg)
 
-## Use `ls -F` to show file classification
+## Use `ls -F` to show file type
 
 ### `*` executable file
 
@@ -53,5 +54,3 @@ ld.so.conf
 ```
 
 In this example, `ld.so.conf` is a normal file.
-
-
