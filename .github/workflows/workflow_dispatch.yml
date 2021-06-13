@@ -3,9 +3,6 @@ name: Trigger pqa-site repository
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build_and_deploy:
