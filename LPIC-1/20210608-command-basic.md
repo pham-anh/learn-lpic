@@ -2,7 +2,6 @@
 title: Some basic commands
 date: 2021-06-08
 tags:
-- centos
 - command
 categories:
 - lpic1
@@ -312,6 +311,16 @@ rmdir do/did/
 rmdir: failed to remove ‘do/did/’: Directory not empty
 ```
 
+`!$`: capture the last argument
+
+```
+$ ls /etc/hosts
+/etc/hosts
+$ echo !$
+echo /etc/hosts
+/etc/hosts
+```
+
 ## Make file with some content
 
 Example, create `hw.txt` with the content `hello world`
@@ -320,4 +329,13 @@ Example, create `hw.txt` with the content `hello world`
 $ echo hello world > hw.txt
 $ cat hw.txt 
 hello world
+```
+
+## `du` disk usage
+
+See disk usage of `/etc` with number in human-readable form and depth = 0 (mean only show the directory itself)
+
+```
+$ sudo du -h /etc/ -d 0
+36M     /etc/
 ```

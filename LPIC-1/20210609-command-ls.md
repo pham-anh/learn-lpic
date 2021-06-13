@@ -2,7 +2,6 @@
 title: ls - list directory contents
 date: 2021-06-09
 tags:
-- centos
 - ls
 - hardLink
 categories:
