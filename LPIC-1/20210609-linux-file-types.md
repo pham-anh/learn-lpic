@@ -2,7 +2,6 @@
 title: Linux file types
 date: 2021-06-09
 tags:
-- centos
 - ls
 categories:
 - lpic1
