@@ -79,3 +79,22 @@ lrwxrwxrwx. 1 root root 14 May 11 20:55 /etc/system-release -> centos-release
 ```
 
 We can see that we have these 2 files with `l` character at the beginning, and they are both pointing to `centos-release`. They are symbolic links, shortcuts to `/etc/centos-release`.
+
+## `p` named pipe
+
+Create a named pipe
+
+```
+$ mkfifo pipe001
+$ ls -lF pipe001 
+prw-rw-r--. 1 pqa pqa 0 Jun 13 00:14 pipe001|
+```
+
+We can see leading `p` telling us that this is a named pipe.
+
+Read more about named pipe: https://www.networkworld.com/article/3251853/why-use-named-pipes-on-linux.html
+
+
+## `s` socket
+
+To be updated...
