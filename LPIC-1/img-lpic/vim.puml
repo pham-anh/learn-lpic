@@ -1,0 +1,50 @@
+@startmindmap
+title Using vim in normal mode
+* vim
+**_ Common
+***_ **ESC** \t enter Nornal mode
+***_ **:** \t\t put cursor at screen bottom
+***_ **:q!** \t discard changes and quit
+***_ **:wq** \t save and quit
+***_ **i**  \t insert text
+***_ **a** \t append after word
+***_ **A** \t append at line end
+
+**[#Orange] Move to
+***_ **w** \t word end
+***_ **$** \t line end
+***_ **e** \t word end excluding spaces
+
+**[#lightgreen] Delete
+***_ **x** \t      char at cursor
+***_ **dw** \t   a word
+***_ **de** \t    a word excluding spaces
+***_ **d$** \t    to line end
+***_ **dd** \t    whole line
+***_ **p** \t       paste the last deletion
+
+**[#FFBBCC]  Undo
+***_ **u** \t   undo once
+***_ **U** \t   revert whole line
+
+** Insert \n and replace
+***_ **cw** \t  a word
+***_ **ce** \t  a word excluding spaces
+***_ **c$** \t  line end
+
+**[#yellow] Shortcut
+***_ **CTRL-g** \t  file location and status
+***_ **SHIFT-G** \t prompt a line number to go to
+
+**[#lightblue] Search
+***_ **/<keyword>[Enter]** \t search forward for keyword
+***_ **?<keyword>[Enter]** \t search backward for keyword
+***_ **n** \t next match
+***_ **Shift N** \t prev match
+***_ **%** \t on opening brace, go to ending brace: }, ), ] and in reverse
+***_ **:s/thee/the[Enter]** \t: search 1st `thee` in the line and replace  by `the`
+***_ **:s/thee/the/g** \t: search all `thee` in the line and replace  by `the`
+***_ **:%s/thee/the/g** \t: search all `thee` in the **file** and replace by `the`
+***_ **:%s/thee/the/gc** \t: search all `thee` in the **file** and **ask** for replacing by `the`
+
+@endmindmap
