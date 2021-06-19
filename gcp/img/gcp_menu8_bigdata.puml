@@ -4,66 +4,29 @@ title GCP menu BIG DATA
 * BIG DATA
 **[#White] Composer
 
-**[#White] Dataproc
-***[#White] JOBS ON CLUSTERS
-****[#MediumPurple] Clusters
-****[#MediumPurple] Jobs
-****[#MediumPurple] Workflows
-****[#MediumPurple] Autoscaling policies
-***[#White] UTILITIES
-****[#MediumPurple] Component exchange
-****[#MediumPurple] Metastore
-****[#MediumPurple] Notebooks
+-- Dataproc
 
---[#White] Pub/Sub
----[#SkyBlue] Topics
----[#SkyBlue] Subscriptions
----[#SkyBlue] Snapshots
----[#SkyBlue] Schemas
----[#SkyBlue] Lite Topics
----[#SkyBlue] Lite Subscriptions
+-- Pub/Sub
 
-**[#White] Dataflow
-***[#Salmon] Jobs
-***[#Salmon] Snapshots
-***[#Salmon] Notebooks
+-- Dataflow
 
-**[#White] Datastream
-***[#Green] Streams
-***[#Green] Connection profiles
-***[#Green] Private connectivity
+-- Datastream
 
 **[#White] IoT Core
 
---[#White] BigQuery
----[#White] ANALYSIS
-----[#Orange] SQL workspace
-----[#Orange] Data transfers
-----[#Orange] Scheduled queries
----[#White] ADMINISTRATION
-----[#Orange] Reservations
-----[#Orange] BI Engine
+-- BigQuery
 
 **[#White] Looker
 
---[#White] Data Catalog
----[#YellowGreen] Search
----[#YellowGreen] Entry groups
----[#YellowGreen] Tag templates
----[#YellowGreen] Policy tags 
+-- Data Catalog 
 
 **[#White] Data Fusion
 
 **[#White] Financial Services
 
---[#White] Healthcare
----[#Gold] Browser
----[#Gold] Marketplace
----[#Gold] FHIR viewer
+-- Healthcare
 
-**[#White] Life Sciences
-***[#RoyalBlue] Pipelines
-***[#RoyalBlue] Pipelines (Legacy Genomics)
+-- Life Sciences
 
 **[#White] Dataprep
 

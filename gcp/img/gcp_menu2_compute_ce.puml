@@ -1,0 +1,37 @@
+@startmindmap
+title GCP menu COMPUTE - Compute Engine
+
+* **COMPUTE**
+**[#White] Compute Engine
+
+***[#White] __VIRTUAL MACHINES__
+****[#HotPink] VM instances
+****[#HotPink] Instance templates
+****[#HotPink] Sole-tenant nodes
+****[#HotPink] Machines images
+****[#HotPink] TPUs
+****[#HotPink] Committed use discounts
+****[#HotPink] Migrate for Compute Engine
+
+***[#White] __STORAGE__
+****[#Gold] Disks
+****[#Gold] Snapshots
+****[#Gold] Images
+
+***[#White] __INSTANCE GROUPS__
+****[#LightSkyBlue] Instance groups
+****[#LightSkyBlue] Health checks
+
+***[#White] __VM MANAGER__
+****[#CadetBlue] OS patch management
+****[#CadetBlue] OS configuration management
+
+***[#White] __SETTINGS__
+****[#OldLace] Metadata
+****[#OldLace] Zones
+****[#OldLace] Network endpoint groups
+****[#OldLace] Operations
+****[#OldLace] Security scans
+****[#OldLace] Settings
+
+@endmindmap

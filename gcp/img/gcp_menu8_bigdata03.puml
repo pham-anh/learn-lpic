@@ -1,0 +1,30 @@
+@startmindmap
+title GCP menu BIG DATA
+
+* BIG DATA
+
+--[#White] BigQuery
+---[#White] ANALYSIS
+----[#Orange] SQL workspace
+----[#Orange] Data transfers
+----[#Orange] Scheduled queries
+---[#White] ADMINISTRATION
+----[#Orange] Reservations
+----[#Orange] BI Engine
+
+**[#White] Data Catalog
+***[#YellowGreen] Search
+***[#YellowGreen] Entry groups
+***[#YellowGreen] Tag templates
+***[#YellowGreen] Policy tags 
+
+**[#White] Healthcare
+***[#Gold] Browser
+***[#Gold] Marketplace
+***[#Gold] FHIR viewer
+
+--[#White] Life Sciences
+---[#RoyalBlue] Pipelines
+---[#RoyalBlue] Pipelines (Legacy Genomics)
+
+@endmindmap

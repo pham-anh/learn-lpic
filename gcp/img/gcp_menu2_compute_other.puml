@@ -1,0 +1,36 @@
+@startmindmap
+title GCP menu COMPUTE
+
+* **COMPUTE**
+**[#White] App Engine
+***[#GreenYellow] Dashboard
+***[#GreenYellow] Services
+***[#GreenYellow] Versions
+***[#GreenYellow] Intances
+***[#GreenYellow] Task queue
+***[#GreenYellow] Cron jobs
+***[#GreenYellow] Security scans
+***[#GreenYellow] Firewall rules
+***[#GreenYellow] Quotas
+***[#GreenYellow] Memcache
+***[#GreenYellow] Search
+***[#GreenYellow] Settings
+
+--[#White] Kunernetes Engine
+---[#Orange] Clusters
+---[#Orange] Workloads
+---[#Orange] Services & Ingress
+---[#Orange] Applications
+---[#Orange] Configuration
+---[#Orange] Storage
+---[#Orange] Object Browser
+---[#Orange] Migrate to containers
+
+--[#White] Cloud Functions
+
+--[#White] Cloud Run
+
+--[#White] WMWare Engine
+
+
+@endmindmap
