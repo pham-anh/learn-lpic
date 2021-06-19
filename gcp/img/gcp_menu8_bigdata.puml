@@ -1,0 +1,72 @@
+@startmindmap
+title GCP menu BIG DATA
+
+* BIG DATA
+**[#White] Composer
+
+**[#White] Dataproc
+***[#White] JOBS ON CLUSTERS
+****[#MediumPurple] Clusters
+****[#MediumPurple] Jobs
+****[#MediumPurple] Workflows
+****[#MediumPurple] Autoscaling policies
+***[#White] UTILITIES
+****[#MediumPurple] Component exchange
+****[#MediumPurple] Metastore
+****[#MediumPurple] Notebooks
+
+--[#White] Pub/Sub
+---[#SkyBlue] Topics
+---[#SkyBlue] Subscriptions
+---[#SkyBlue] Snapshots
+---[#SkyBlue] Schemas
+---[#SkyBlue] Lite Topics
+---[#SkyBlue] Lite Subscriptions
+
+**[#White] Dataflow
+***[#Salmon] Jobs
+***[#Salmon] Snapshots
+***[#Salmon] Notebooks
+
+**[#White] Datastream
+***[#Green] Streams
+***[#Green] Connection profiles
+***[#Green] Private connectivity
+
+**[#White] IoT Core
+
+--[#White] BigQuery
+---[#White] ANALYSIS
+----[#Orange] SQL workspace
+----[#Orange] Data transfers
+----[#Orange] Scheduled queries
+---[#White] ADMINISTRATION
+----[#Orange] Reservations
+----[#Orange] BI Engine
+
+**[#White] Looker
+
+--[#White] Data Catalog
+---[#YellowGreen] Search
+---[#YellowGreen] Entry groups
+---[#YellowGreen] Tag templates
+---[#YellowGreen] Policy tags 
+
+**[#White] Data Fusion
+
+**[#White] Financial Services
+
+--[#White] Healthcare
+---[#Gold] Browser
+---[#Gold] Marketplace
+---[#Gold] FHIR viewer
+
+**[#White] Life Sciences
+***[#RoyalBlue] Pipelines
+***[#RoyalBlue] Pipelines (Legacy Genomics)
+
+**[#White] Dataprep
+
+
+
+@endmindmap

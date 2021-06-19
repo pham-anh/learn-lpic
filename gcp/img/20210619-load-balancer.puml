@@ -1,0 +1,39 @@
+@startmindmap
+title GCP load balancing options
+
+*[#White] **Load balancer**
+
+++[#Khaki] Global HTTP(S)
++++[#Violet] Layer 7
++++[#Khaki] load balancing based on load
++++[#Khaki] Can route different URLs to different back ends
++++[#MintCream] e.g. Web application
+
+++[#Salmon] Global SSL Proxy
++++[#SkyBlue] Layer 4 
++++[#Salmon] load balancing of non-HTTPS SSL traffic based on load
++++[#Salmon] Supported on specific port numbers
++++[#SkyBlue] TCP only
++++[#MintCream] e.g. Secure Sockets Layer traffic that is not HTTP
+
+**[#YellowGreen] Global TCP Proxy
+***[#SkyBlue] Layer 4 
+***[#YellowGreen] load balancing of non-SSL TCP traffic
+***[#YellowGreen] Supported on specific port numbers
+***[#SkyBlue] TCP only
+***[#MintCream] e.g. other TCP traffic that does not use Secure Sockets Layer
+
+--[#Wheat] Regional
+---[#Wheat] Load balancing of any traffic (TCP, UDP)
+---[#Wheat] Supported on any port number
+---[#MintCream] load balance UDP traffic
+---[#MintCream] load balance traffic on any port number
+
+--[#Thistle] Regional internal \n (internal load balancer)
+---[#Thistle] Load balancing of traffic inside a VPC/ a GCP project
+---[#Thistle] Use for the internal tiers of multi-tier applications
+---[#Thistle] it accepts traffic on a GCP internal IP address and \n load balances it across Compute Engine VMs
+---[#MintCream] e.g. between the presentation layer and \n the business layer of your application
+
+
+@endmindmap

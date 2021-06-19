@@ -1,0 +1,52 @@
+@startmindmap
+title GCP menu TOOLS
+
+* **TOOLS**
+**[#White] Cloud Build
+***[#Orchid] Dashboard
+***[#Orchid] History
+***[#Orchid] Trigger
+***[#Orchid] Settings
+
+**[#White] Cloud Tasks
+
+--[#White] Container Registry
+---[#Orange] Images
+---[#Orange] Settings
+
+--[#White] Artifact Registry
+---[#Green] Repository
+---[#Green] Settings
+
+**[#White] Cloud Scheduler
+
+**[#White] Deployment Manager
+***[#Gold] Deployments
+***[#Gold] Type registry
+
+**[#White] API Gateway
+
+--[#White] Endpoints
+---[#Khaki] Services
+---[#Khaki] Developer Portal
+
+--[#White] Identity Platform
+---[#YellowGreen] Providers
+---[#YellowGreen] MFA
+---[#YellowGreen] Users
+---[#YellowGreen] Settings
+---[#YellowGreen] Tenants
+
+**[#White] Source Repository
+
+**[#White] Workflows
+***[#LightSkyBlue] Workflows
+***[#LightSkyBlue] Dashboard
+
+**[#White] Private Catalog
+--[#White] Apigee
+
+
+
+
+@endmindmap

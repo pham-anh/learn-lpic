@@ -1,0 +1,44 @@
+@startmindmap
+title GCP menu NETWORKING
+
+* **NETWORKING**
+**[#White] VPC Network
+***[#BurlyWood] VPC networks
+***[#BurlyWood] External IP addresses
+***[#BurlyWood] Bring your own IP
+***[#BurlyWood] Firewall
+***[#BurlyWood] Routes
+***[#BurlyWood] VPC network peering
+***[#BurlyWood] Shared VPC
+***[#BurlyWood] Serverless VPC access
+***[#BurlyWood] Packet mirroring
+
+--[#White] Network services
+---[#Khaki] Load balancing
+---[#Khaki] Cloud DNS
+---[#Khaki] Cloud CDN
+---[#Khaki] Cloud NAT
+---[#Khaki] Traffic Director
+---[#Khaki] Service Directory
+---[#Khaki] Cloud Domains
+---[#Khaki] Private Service Connect
+
+**[#White] Hybrid Connectivity
+***[#YellowGreen] VPN
+***[#YellowGreen] Interconnect
+***[#YellowGreen] Cloud Routers
+***[#YellowGreen] Network Connectivity Center
+
+**[#White] Network Service Tiers
+
+--[#White] Network Security
+---[#PowderBlue] Cloud Armor
+---[#PowderBlue] SSL policies
+
+--[#White] Network Intelligence
+---[#Gold] Network Topology
+---[#Gold] Connectivity Tests
+---[#Gold] Performance Dashboard
+---[#Gold] Firewall Insights
+
+@endmindmap

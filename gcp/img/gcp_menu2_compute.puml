@@ -1,0 +1,63 @@
+@startmindmap
+title GCP menu COMPUTE
+
+* **COMPUTE**
+**[#White] App Engine
+***[#GreenYellow] Dashboard
+***[#GreenYellow] Services
+***[#GreenYellow] Versions
+***[#GreenYellow] Intances
+***[#GreenYellow] Task queue
+***[#GreenYellow] Cron jobs
+***[#GreenYellow] Security scans
+***[#GreenYellow] Firewall rules
+***[#GreenYellow] Quotas
+***[#GreenYellow] Memcache
+***[#GreenYellow] Search
+***[#GreenYellow] Settings
+
+--[#White] Compute Engine
+---[#White] __VIRTUAL MACHINES__
+----[#HotPink] VM instances
+----[#HotPink] Instance templates
+----[#HotPink] Sole-tenant nodes
+----[#HotPink] Machines images
+----[#HotPink] TPUs
+----[#HotPink] Committed use discounts
+----[#HotPink] Migrate for Compute Engine
+---[#White] __STORAGE__
+----[#Gold] Disks
+----[#Gold] Snapshots
+----[#Gold] Images
+---[#White] __INSTANCE GROUPS__
+----[#LightSkyBlue] Instance groups
+----[#LightSkyBlue] Health checks
+---[#White] __VM MANAGER__
+----[#CadetBlue] OS patch management
+----[#CadetBlue] OS configuration management
+---[#White] __SETTINGS__
+----[#OldLace] Metadata
+----[#OldLace] Zones
+----[#OldLace] Network endpoint groups
+----[#OldLace] Operations
+----[#OldLace] Security scans
+----[#OldLace] Settings
+
+**[#White] Kunernetes Engine
+***[#Orange] Clusters
+***[#Orange] Workloads
+***[#Orange] Services & Ingress
+***[#Orange] Applications
+***[#Orange] Configuration
+***[#Orange] Storage
+***[#Orange] Object Browser
+***[#Orange] Migrate to containers
+
+**[#White] Cloud Functions
+
+**[#White] Cloud Run
+
+**[#White] WMWare Engine
+
+
+@endmindmap
