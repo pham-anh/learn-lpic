@@ -1,0 +1,45 @@
+@startmindmap
+title GCP menu ARTIFICIAL INTELLIGENCE
+
+* ARTIFICIAL \nINTELLIGENCE
+--[#White] Recommendations AI
+---[#Salmon] Dashboard
+---[#Salmon] Data
+---[#Salmon] Errors
+---[#Salmon] Models
+---[#Salmon] Placements
+---[#Salmon] Business insights
+
+**[#White] Retail
+***[#SkyBlue] Dashboard
+***[#SkyBlue] Data
+***[#SkyBlue] Models
+***[#SkyBlue] Controls
+***[#SkyBlue] Serving configs
+***[#SkyBlue] Evaluate
+***[#SkyBlue] Monitoring & Analytics
+
+--[#White] Tables
+---[#RoyalBlue] Datasets
+---[#RoyalBlue] Models
+
+--[#White] Talent Solution
+---[#OldLace] Overview
+---[#OldLace] Client event livestream
+---[#OldLace] Client event search
+---[#OldLace] Job export
+---[#OldLace] Service accounts connections
+
+**[#White] Translation
+***[#Thistle] Dashboard
+***[#Thistle] Datasets
+***[#Thistle] Models
+
+**[#White] Video Intelligence
+
+**[#White] Vison
+***[#HotPink] Dashboard
+***[#HotPink] Datasets
+***[#HotPink] Models
+
+@endmindmap

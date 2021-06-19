@@ -6,8 +6,8 @@ title GCP menu
 ---[#Orange] Activity
 ---[#Orange] Recommendations
 
---[#White] Marketplace
---[#White] Billing
+' --[#White] Marketplace
+' --[#White] Billing
 
 **[#White] APIs & Services
 ***[#YellowGreen] Dashboard
@@ -25,8 +25,8 @@ title GCP menu
 ***[#LightCoral] Community support
 ***[#LightCoral] Settingsß
 
---[#White] Getting started
---[#White] Compliance
+' --[#White] Getting started
+' --[#White] Compliance
 
 --[#White] Anthos
 ---[#SkyBlue] Dashboard

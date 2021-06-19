@@ -1,21 +1,21 @@
 @startmindmap
 title GCP menu Security
 
-*[#GreenYellow] Security
-** Security Commander Center
-** reCAPTCHA Enterprise
-** BeyondCorp Enterprise
-** Identity-Aware Proxy
-** Access Context Manager
-** VPC Service Controls
-** Binary Authorization
--- Data Loss Prevention
--- Key Management
--- Certificate Authority Service
--- Secret Manager
--- Access Approval
--- Web Security Scanner
--- Chronicle
--- Managed Microsoft AD
+* Security
+**[#White] Security Commander Center
+**[#White] reCAPTCHA Enterprise
+**[#White] BeyondCorp Enterprise
+**[#White] Identity-Aware Proxy
+**[#White] Access Context Manager
+**[#White] VPC Service Controls
+**[#White] Binary Authorization
+--[#White] Data Loss Prevention
+--[#White] Key Management
+--[#White] Certificate Authority Service
+--[#White] Secret Manager
+--[#White] Access Approval
+--[#White] Web Security Scanner
+--[#White] Chronicle
+--[#White] Managed Microsoft AD
 
 @endmindmap

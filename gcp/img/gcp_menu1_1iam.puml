@@ -1,27 +1,27 @@
 @startmindmap
 title GCP menu IAM & Admin
 
--[#White] **IAM & Admin**
-**  IAM
-**  Identity & Organization
-**  Policy Troubleshooter
-**  Policy Analyzer
-**  Organization Policies
-**  Service Accounts
-**  Workload Identity Federation
-**  Labels
-**  Tags
-**  Settings
-**  Privacy & Security
---  Identity-Aware Proxy
---  Roles
---  Audit Logs
---  Manage Resources
---  Create a project
---  Asset Inventory
---  Essential Contacts
---  Groups
---  Early Access Center
---  Quotas
+- **IAM & Admin**
+**[#White]  IAM
+**[#White]  Identity & Organization
+**[#White]  Policy Troubleshooter
+**[#White]  Policy Analyzer
+**[#White]  Organization Policies
+**[#White]  Service Accounts
+**[#White]  Workload Identity Federation
+**[#White]  Labels
+**[#White]  Tags
+**[#White]  Settings
+**[#White]  Privacy & Security
+--[#White]  Identity-Aware Proxy
+--[#White]  Roles
+--[#White]  Audit Logs
+--[#White]  Manage Resources
+--[#White]  Create a project
+--[#White]  Asset Inventory
+--[#White]  Essential Contacts
+--[#White]  Groups
+--[#White]  Early Access Center
+--[#White]  Quotas
 
 @endmindmap

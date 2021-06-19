@@ -1,15 +1,15 @@
 @startmindmap
 title GCP menu
-*[#White] GCP menu
+* GCP menu
 ** Home
-** Marketplace
-** Billing
+**[#White] Marketplace
+**[#White] Billing
 ** APIs & Services
 ** Support
 ** IAM & Admin
-** Getting started
-** Compliance
-** ßSecurity
+**[#White] Getting started
+**[#White] Compliance
+** Security
 ** Anthos
 -- Compute
 -- Storage

@@ -1,0 +1,35 @@
+@startmindmap
+title GCP menu BIG DATA
+
+* BIG DATA
+
+**[#White] Dataproc
+***[#White] JOBS ON CLUSTERS
+****[#MediumPurple] Clusters
+****[#MediumPurple] Jobs
+****[#MediumPurple] Workflows
+****[#MediumPurple] Autoscaling policies
+***[#White] UTILITIES
+****[#MediumPurple] Component exchange
+****[#MediumPurple] Metastore
+****[#MediumPurple] Notebooks
+
+--[#White] Pub/Sub
+---[#SkyBlue] Topics
+---[#SkyBlue] Subscriptions
+---[#SkyBlue] Snapshots
+---[#SkyBlue] Schemas
+---[#SkyBlue] Lite Topics
+---[#SkyBlue] Lite Subscriptions
+
+--[#White] Dataflow
+---[#Salmon] Jobs
+---[#Salmon] Snapshots
+---[#Salmon] Notebooks
+
+**[#White] Datastream
+***[#Green] Streams
+***[#Green] Connection profiles
+***[#Green] Private connectivity
+
+@endmindmap
