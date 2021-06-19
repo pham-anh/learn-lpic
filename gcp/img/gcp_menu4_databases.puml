@@ -1,0 +1,31 @@
+@startmindmap
+title GCP menu DATABASES
+* DATABASES
+**[#White] Bigtable
+
+**[#White] Datastore
+***[#Gold] Entities
+***[#Gold] Dashboard
+***[#Gold] Import/ Export
+***[#Gold] Indexes
+***[#Gold] Admin
+
+**[#White] Database Migration
+***[#LightCyan] Migration jobs
+***[#LightCyan] Connection profiles
+
+--[#White] Firestore
+---[#YellowGreen] Data
+---[#YellowGreen] Indexes
+---[#YellowGreen] Import/ Export
+---[#YellowGreen] Usage
+---[#YellowGreen] Security Rules
+
+--[#White] Memorystore
+---[#Orange] Redis
+---[#Orange] Memcached
+
+--[#White] Spanner
+--[#White] SQL
+
+@endmindmap

@@ -1,0 +1,35 @@
+@startmindmap
+title GCP menu OPERATIONS
+
+* **OPERATIONS**
+**[#White] Monitoring
+***[#YellowGreen] Overview
+***[#YellowGreen] Dashboard
+***[#YellowGreen] Services
+***[#YellowGreen] Metrics explorer
+***[#YellowGreen] Alerting
+***[#YellowGreen] Uptime checks
+***[#YellowGreen] Groups
+***[#YellowGreen] Settings
+
+**[#White] Debugger
+
+--[#White] Logging
+---[#Gold] Logs explorer
+---[#Gold] Logs Dashboard
+---[#Gold] Logs-based Metrics
+---[#Gold] Logs Router
+---[#Gold] Logs Storage
+
+**[#White] Profiler
+
+--[#White] Trace
+---[#LightCyan] Overview
+---[#LightCyan] Trace list
+---[#LightCyan] Analysis reports
+
+**[#White] Error Reporting
+
+
+
+@endmindmap

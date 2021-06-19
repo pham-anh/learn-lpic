@@ -1,0 +1,22 @@
+@startmindmap
+title GCP menu PARTNER SOLUTIONS
+
+* PARTNER SOLUTIONS
+**[#White] Redis Enterprise
+**[#White] Apache Kafka on Confluent
+**[#White] Databricks
+**[#White] DataStax Astra
+**[#White] Elasticsearch Service
+**[#White] MongoDB Atlas
+**[#White] Neo4j Aura Professional Database-as-a-service
+
+**[#White] Cloud Volumes
+***[#LightBlue] Volumes
+***[#LightBlue] Backups
+***[#LightBlue] Snapshots
+***[#LightBlue] Active Directories
+***[#LightBlue] Volume Replication
+
+**[#White] Splunk Cloud
+
+@endmindmap

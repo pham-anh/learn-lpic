@@ -1,0 +1,40 @@
+@startmindmap
+title GCP menu
+* GCP menu
+--[#White] Home
+---[#Orange] Dashboard
+---[#Orange] Activity
+---[#Orange] Recommendations
+
+--[#White] Marketplace
+--[#White] Billing
+
+**[#White] APIs & Services
+***[#YellowGreen] Dashboard
+***[#YellowGreen] Library
+***[#YellowGreen] Credentials
+***[#YellowGreen] OAuth consent screen
+***[#YellowGreen] Domain verification
+***[#YellowGreen] Page usage agreements
+
+**[#White] Support
+***[#LightCoral] Overview
+***[#LightCoral] Cases
+***[#LightCoral] Chat support
+***[#LightCoral] Phone support
+***[#LightCoral] Community support
+***[#LightCoral] Settingsß
+
+--[#White] Getting started
+--[#White] Compliance
+
+--[#White] Anthos
+---[#SkyBlue] Dashboard
+---[#SkyBlue] Service Mesh
+---[#SkyBlue] Config Management
+---[#SkyBlue] Clusters
+---[#SkyBlue] Features
+---[#SkyBlue] Migrate to containers
+---[#SkyBlue] Security (PREVIEW)
+
+@endmindmap

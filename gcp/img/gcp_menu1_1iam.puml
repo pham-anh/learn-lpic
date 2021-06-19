@@ -1,0 +1,27 @@
+@startmindmap
+title GCP menu IAM & Admin
+
+-[#White] **IAM & Admin**
+**  IAM
+**  Identity & Organization
+**  Policy Troubleshooter
+**  Policy Analyzer
+**  Organization Policies
+**  Service Accounts
+**  Workload Identity Federation
+**  Labels
+**  Tags
+**  Settings
+**  Privacy & Security
+--  Identity-Aware Proxy
+--  Roles
+--  Audit Logs
+--  Manage Resources
+--  Create a project
+--  Asset Inventory
+--  Essential Contacts
+--  Groups
+--  Early Access Center
+--  Quotas
+
+@endmindmap

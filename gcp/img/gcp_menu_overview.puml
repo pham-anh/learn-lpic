@@ -1,0 +1,23 @@
+@startmindmap
+title GCP menu
+*[#White] GCP menu
+** Home
+** Marketplace
+** Billing
+** APIs & Services
+** Support
+** IAM & Admin
+** Getting started
+** Compliance
+** ßSecurity
+** Anthos
+-- Compute
+-- Storage
+-- Databases
+-- Networking
+-- Operations
+-- Tools
+-- Big data
+-- Artificial intelligence
+-- Other Google solutions
+@endmindmap

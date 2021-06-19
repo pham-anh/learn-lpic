@@ -1,0 +1,20 @@
+@startmindmap
+title GCP menu STORAGE
+* STORAGE
+**[#White] Filestore
+***[#Gold] Instances
+***[#Gold] Backups
+
+**[#White] Cloud Storage
+***[#YellowGreen] Browsers
+***[#YellowGreen] Monitoring
+***[#YellowGreen] Settings
+
+--[#White] Data Transfer
+---[#LightCyan] Transfer Service | cloud
+---[#LightCyan] Transfer Service | on-premises
+---[#LightCyan] Transfer Appliance
+
+
+
+@endmindmap

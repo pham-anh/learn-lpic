@@ -1,0 +1,83 @@
+@startmindmap
+title GCP menu ARTIFICIAL INTELLIGENCE
+
+* ARTIFICIAL INTELLIGENCE
+**[#White] Vertex AI
+***[#Gold] Dashboard
+***[#Gold] Datasets
+***[#Gold] Features
+***[#Gold] Labeling tasks
+***[#Gold] Notebooks
+***[#Gold] Pipelines
+***[#Gold] Training
+***[#Gold] Experiments
+***[#Gold] Models
+***[#Gold] Endpoints
+***[#Gold] Batch predictions
+***[#Gold] Metadata
+
+--[#White] AI Platform
+---[#MistyRose] Dashboard
+---[#MistyRose] Data Labeling
+---[#MistyRose] Notebooks
+---[#MistyRose] Pipelines
+---[#MistyRose] Jobs
+---[#MistyRose] Models
+
+--[#White] Data Labeling
+---[#YellowGreen] Datasets
+---[#YellowGreen] Label Sets
+---[#YellowGreen] Instructions
+
+**[#White] Document AI
+***[#PaleGreen] Overview
+***[#PaleGreen] Processors
+***[#PaleGreen] Human-in-the-loop AI
+
+**[#White] Natural Language
+
+--[#White] Recommendations AI
+---[#Salmon] Dashboard
+---[#Salmon] Data
+---[#Salmon] Errors
+---[#Salmon] Models
+---[#Salmon] Placements
+---[#Salmon] Business insights
+
+**[#White] Retail
+***[#SkyBlue] Dashboard
+***[#SkyBlue] Data
+***[#SkyBlue] Models
+***[#SkyBlue] Controls
+***[#SkyBlue] Serving configs
+***[#SkyBlue] Evaluate
+***[#SkyBlue] Monitoring & Analytics
+
+--[#White] Tables
+---[#RoyalBlue] Datasets
+---[#RoyalBlue] Models
+
+--[#White] Talent Solution
+---[#OldLace] Overview
+---[#OldLace] Client event livestream
+---[#OldLace] Client event search
+---[#OldLace] Job export
+---[#OldLace] Service accounts connections
+
+--[#White] Translation
+---[#Thistle] Dashboard
+---[#Thistle] Datasets
+---[#Thistle] Models
+
+**[#White] Video Intelligence
+
+**[#White] Vison
+***[#HotPink] Dashboard
+***[#HotPink] Datasets
+***[#HotPink] Models
+
+
+
+
+
+@endmindmap
