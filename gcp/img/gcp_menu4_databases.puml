@@ -25,7 +25,7 @@ title GCP menu DATABASES
 ---[#Orange] Redis
 ---[#Orange] Memcached
 
---[#White] Spanner
---[#White] SQL
+--[#White] Spanner (Cloud Spanner)
+--[#White] SQL (Cloud SQL)
 
 @endmindmap
