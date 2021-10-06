@@ -6,6 +6,12 @@ title GCP menu COMPUTE - Compute Engine
 
 ***[#White] __VIRTUAL MACHINES__
 ****[#HotPink] VM instances
+*****_ High CPU, high memory, standard \nand shared-core machine types
+*****_ Persistent disks
+******_ Standard, SSD, local SSD
+******_ Snapshot
+*****_ Resize disks with no downtime
+*****_ Instance metadata and startup scripts
 ****[#HotPink] Instance templates
 ****[#HotPink] Sole-tenant nodes
 ****[#HotPink] Machines images

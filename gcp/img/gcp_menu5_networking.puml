@@ -7,16 +7,24 @@ title GCP menu NETWORKING
 ***[#BurlyWood] External IP addresses
 ***[#BurlyWood] Bring your own IP
 ***[#BurlyWood] Firewall
+****_ controll what network traffic \nis allowed
 ***[#BurlyWood] Routes
-***[#BurlyWood] VPC network peering
+****_ forward traffic within the network, \nevent accross subnets
+***[#BurlyWood] VPC network \npeering
+****_ interconnect networks in \nGCP projects
 ***[#BurlyWood] Shared VPC
+****_ share a network, or individual subnets, \nwith other GCP projects.
 ***[#BurlyWood] Serverless VPC access
 ***[#BurlyWood] Packet mirroring
 
 --[#White] Network services
 ---[#Khaki] Load balancing
+----_ single front-end to the internet
 ---[#Khaki] Cloud DNS
+----_ create managed zones
+----_ add, edit, delete DNS records
 ---[#Khaki] Cloud CDN
+----_ cache content close to your users
 ---[#Khaki] Cloud NAT
 ---[#Khaki] Traffic Director
 ---[#Khaki] Service Directory
@@ -25,8 +33,31 @@ title GCP menu NETWORKING
 
 **[#White] Hybrid Connectivity
 ***[#YellowGreen] VPN
+****_ Over the internet
+****_ Secure multi-Gbps connection \nover VPN tunnels
 ***[#YellowGreen] Interconnect
+****_ Not via the internet (security concerns \nor more reliable bandwidth)
+**** Peering
+*****_ No SLA (not warrant highest uptimes)
+***** Direct Peering
+******_ put a router in the same public \ndatacenter as a **Google point of** \n**presence** and exchanging traffic
+***** Carrier Peering
+******_ Customers who aren’t already in a \npoint of presence can contract with\na partner in the Carrier Peering \nprogram to get connected
+**** Interconnect
+*****_ 99.99% SLA
+***** Dedicated \nInterconnect
+******_ customers get one or more direct, \nprivate connections to Google
+******_ your data center needs to reach a \n**Dedicated Interconnect colocation facility**
+******_ can be backed up by a VPN for \neven greater reliability
+***** Partner \nInterconnect
+******_ provides connectivity between your \non-premises network and your VPC network \nthrough a supported service provider
+******_ if your data center cannot reach a \nDedicated Interconnect colocation facility
+******_ if your data needs don't warrant \nan entire 10 Gbps connection
+
+
 ***[#YellowGreen] Cloud Routers
+****_ Over the internet
+****_ lets your other networks and your Google \nVPC exchange route information over the \nVPN using the Border Gateway Protocol
 ***[#YellowGreen] Network Connectivity Center
 
 **[#White] Network Service Tiers

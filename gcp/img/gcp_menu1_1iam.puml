@@ -16,7 +16,10 @@ title GCP menu IAM & Admin
 --[#White]  Identity-Aware Proxy
 --[#White]  Roles
 --[#White]  Audit Logs
---[#White]  Manage Resources
+--[#White]  Manage Resources\n(Cloud Resource Manager)
+---_ List all projects associated\nwith an account
+---_ Create, update, delete, \nundelete, recover projects
+
 --[#White]  Create a project
 --[#White]  Asset Inventory
 --[#White]  Essential Contacts
