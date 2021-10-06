@@ -27,7 +27,7 @@ go version go1.15.14 linux/amd64
 
 Download go sample Hello World app and try running it locally.
 
-```shell
+```
 $ git clone github.com/GoogleCloudPlatform/golang-samples
 $ cd golang-samples/appengine_flexible/helloworld
 # Run it locally
@@ -43,7 +43,7 @@ go: cloud.google.com/go/bigtable@v1.4.0 requires
         fatal: git fetch-pack: expected shallow list
 ```
 
-### How to solve it?
+### How to solve `fatal: git fetch-pack: expected shallow list` ?
 
 The causes seems to be that git and go versions are too old. So I upgrade them to newer versions.
 
@@ -57,7 +57,7 @@ $ git version
 git version 2.22.5
 ```
 
-### Upgrade go to 1.17
+#### Upgrade go to 1.17
 
 ```
 $ curl -O -L https://golang.org/dl/go1.17.1.linux-amd64.tar.gz
@@ -80,7 +80,7 @@ This time it was successful.
 
 Now deploy it to App Engine.
 
-```shell
+```
 $ gcloud app deploy
 Services to deploy:
 
