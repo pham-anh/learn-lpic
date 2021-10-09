@@ -1,5 +1,5 @@
 ---
-title: Make a Cloud Storage bucket public
+title: 3 steps to to make a Cloud Storage bucket public
 date: 2021-10-08
 tags:
 - gcs
